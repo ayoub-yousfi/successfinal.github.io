@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-	<link rel="icon" type="image/png" sizes="40x40" href="C:\xampp\htdocs\success\dreamsnmotion_final_version\template\templatemo_461_workforce\images\Capture.png">
+	<link rel="icon" type="image/png" sizes="40x40" href="images/Capture.PNG">
 
     <!-- 
 	Workforce CSS Template
@@ -35,13 +35,13 @@
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home" class="smoothScroll">Accueil11</a></li>
-					<li><a href="#service" class="smoothScroll">Présentation11</a></li>
-					<li><a href="#about" class="smoothScroll">Formation en cours11</a></li>
+					<li><a href="#home" class="smoothScroll">Accueil</a></li>
+					<li><a href="#service" class="smoothScroll">Présentation</a></li>
+					<li><a href="#about" class="smoothScroll">Formation en cours</a></li>
 					<li><a href="#portfolio" class="smoothScroll">Services</a></li>
 					<li><a href="#contact" class="smoothScroll">Réferences</a></li>
 					<li><a href="#contact" class="smoothScroll">Formations réalisée</a></li>
-					<li><a href="#contact" class="smoothScroll">Contact</a></li>
+					<li><a href="choix.php" class="smoothScroll">s'identifier</a></li>
 				</ul>
 			</div>
 		</div>
@@ -57,7 +57,7 @@
 							<div class="templatemo_homewrapper">
 								<h2>Successway</h2>
 								<h3 class="wow bounceIn">est le Partenaire de votre réussite et succès</h3>
-								<a href="C:\xampp\htdocs\success\dreamsnmotion_final_version\template\templatemo_461_workforce\cathalogue.pdf" class="smoothScroll templatemo-slider-btn btn btn-default">telecharger le cathalogue des formations pour l'année 2021</a>
+								<a href="cathalogue.pdf" class="smoothScroll templatemo-slider-btn btn btn-default">telecharger le cathalogue des formations pour l'année 2021</a>
 							</div>
 						</div>
 					</li>
@@ -67,7 +67,7 @@
 							<div class="templatemo_homewrapper">
                             	<h2>Successway</h2>
 								<h3 class="wow bounce">un Centre de formation agrée par l'état </h3>
-								<a href="C:\xampp\htdocs\success\dreamsnmotion_final_version\template\templatemo_461_workforce\cathalogue.pdf" class="smoothScroll templatemo-slider-btn btn btn-default">telecharger le cathalogue des formations pour l'année 2021</a>	
+								<a href="cathalogue.pdf" class="smoothScroll templatemo-slider-btn btn btn-default">telecharger le cathalogue des formations pour l'année 2021</a>	
 							</div>
 						</div>
 					</li>
