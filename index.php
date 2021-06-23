@@ -31,7 +31,7 @@
 					<span class="icon icon-bar"></span>
 					<span class="icon icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand">successway</a>
+				<a href="index.php" class="navbar-brand">successway</a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
@@ -41,7 +41,9 @@
 					<li><a href="#portfolio" class="smoothScroll">Services</a></li>
 					<li><a href="#contact" class="smoothScroll">Réferences</a></li>
 					<li><a href="#contact" class="smoothScroll">Formations réalisée</a></li>
+					<li><a href="choix.php" class="smoothScroll">contact</a></li>
 					<li><a href="choix.php" class="smoothScroll">s'identifier</a></li>
+					
 				</ul>
 			</div>
 		</div>

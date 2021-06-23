@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>s'identifier</title>
+	<title>Login V1</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -20,8 +20,6 @@
 	<link rel="stylesheet" type="text/css" href="css/util1.css">
 	<link rel="stylesheet" type="text/css" href="css/main1.css">
 <!--===============================================================================================-->
-<link rel="icon" type="image/png" sizes="40x40" href="images/Capture.PNG">
-
 </head>
 <body>
 	
@@ -40,12 +38,12 @@
 					
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							<a href="formateur_participant.php">formateur</a>
+							<a href="formateur_participant.php">sign in</a>
 						</button>
 					</div>
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							<a href="signin_signup.php">participant</a>
+							<a href="signin_signup.php">sign up</a>
 						</button>
 					</div>
 					
