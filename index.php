@@ -37,7 +37,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#home" class="smoothScroll">Accueil11</a></li>
 					<li><a href="#service" class="smoothScroll">Présentation11</a></li>
-					<li><a href="#about" class="smoothScroll">Formation en cours</a></li>
+					<li><a href="#about" class="smoothScroll">Formation en cours11</a></li>
 					<li><a href="#portfolio" class="smoothScroll">Services</a></li>
 					<li><a href="#contact" class="smoothScroll">Réferences</a></li>
 					<li><a href="#contact" class="smoothScroll">Formations réalisée</a></li>
