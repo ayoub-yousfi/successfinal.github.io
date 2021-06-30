@@ -31,7 +31,7 @@
 </head>
 <body>
 	<div id="frm">
-		<form action="process.php" method="POST">
+		<form action="inscrit.php" method="POST" >
 			<div class="limiter">
 				<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 					<div class="wrap-login100">
@@ -40,19 +40,37 @@
 								<i class="zmdi zmdi-landscape"></i>
 							</span>
 							<span class="login100-form-title p-b-34 p-t-27">
-								s'identifier
+								Sign up
 							</span>
-							<div class="wrap-input100 validate-input" data-validate = "Enter username">
-								<input class="input100" type="text"  id="user" name="user" placeholder="user">
+							<div class="wrap-input100 validate-input" data-validate = "nom">
+								<input class="input100" type="text"  id="nom" name="nom" placeholder="Nom">
 								<span class="focus-input100" data-placeholder="&#xf207;"></span>
 							</div>
-							<div class="wrap-input100 validate-input" data-validate="Enter password">
-								<input class="input100" type="password" id="pass" name="pass" placeholder="Password">
+							<div class="wrap-input100 validate-input" data-validate="prenom">
+								<input class="input100" type="text" id="prenom" name="prenom" placeholder="Prenom">
 								<span class="focus-input100" data-placeholder="&#xf191;"></span>
 							</div>
+							<div class="wrap-input100 validate-input" data-validate = "email">
+								<input class="input100" type="text"  id="email" name="email" placeholder="Email">
+								<span class="focus-input100" data-placeholder="&#xf207;"></span>
+							</div>
+							<div class="wrap-input100 validate-input" data-validate = "password">
+								<input class="input100" type="password"  id="password" name="password" placeholder="Password">
+								<span class="focus-input100" data-placeholder="&#xf207;"></span>
+							</div>
+							<div class="wrap-input100 validate-input" data-validate = "confirmpassword">
+								<input class="input100" type="password"  id="confirmpassword" name="confirmpassword" placeholder="Confirme password">
+								<span class="focus-input100" data-placeholder="&#xf207;"></span>
+							</div>
+							
+							<div class="wrap-input100 validate-input" data-validate = "telephone">
+								<input class="input100" type="text"  id="telephone" name="telephone" placeholder="N° Téléphone">
+								<span class="focus-input100" data-placeholder="&#xf207;"></span>
+							</div>
+							
 							
 							<div class="container-login100-form-btn">
-								<button class="login100-form-btn">
+								<button class="login100-form-btn" type="submit" id="submit">
 									Login
 								</button>
 							</div>
@@ -84,6 +102,8 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+	<script src="js/inscrit.js"></script>
+
 
 </body>
 </html>

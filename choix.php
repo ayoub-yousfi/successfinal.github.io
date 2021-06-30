@@ -40,12 +40,12 @@
 					
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							<a href="formateur_participant.php">formateur</a>
+							<a href="adminformateur.php">formateur</a>
 						</button>
 					</div>
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							<a href="signin_signup.php">participant</a>
+							<a href="signup.php">participant</a>
 						</button>
 					</div>
 					

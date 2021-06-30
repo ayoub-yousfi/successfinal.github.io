@@ -83,7 +83,7 @@ h4
                 align-items: center;
         background: none repeat scroll 0 0 #fff;
     }
-.sk-spinner-rotating-plane.sk-spinner 
+/*.sk-spinner-rotating-plane.sk-spinner 
     {
          width: 30px;
         height: 30px;
@@ -91,6 +91,51 @@ h4
         -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
                 animation: sk-rotatePlane 1.2s infinite ease-in-out;
      }
+*/
+/*pre loader*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+#mdiv{
+    background-color: white;
+    width:99vw;
+    height:100vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.cdiv{
+    width:15rem;
+    height:15rem;
+}
+.rot{
+    position: absolute;
+    width:15rem;
+    height:15rem;
+    border-right:0.3rem solid #1A4280;
+    border-radius: 50%;
+    animation:pre 2s linear infinite;
+}
+@keyframes pre {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.lh{
+    color:#1A4280;
+    font-family: 'Pattaya', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
 
 @-webkit-keyframes sk-rotatePlane {
   0% {
@@ -495,9 +540,11 @@ h3.about-title {
 /* start blocs*/
 #bloc1
 {
-    background-color:#1A4280;
+    margin-left: auto;
+    margin-top: auto;
+    background-color:#7d8899;
     float:left;
-    width:240px;
+    width:350px;
 }
 #bloc2
 {
@@ -509,7 +556,6 @@ h3.about-title {
 /* start footer */
 footer
     {
-        background-image: url(https://i.pinimg.com/originals/bc/a3/2d/bca32d5cdfabeaeb4faeb12bff160524.jpg);
         color: #ffffff;
         padding-top: 60px;
         padding-bottom: 60px;
