@@ -9,6 +9,7 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<link rel="icon" type="image/png" sizes="40x40" href="images/Capture.PNG">
+	
 
     <!-- 
 	Workforce CSS Template
@@ -21,6 +22,12 @@
 	<link rel="stylesheet" href="css/templatemo-style.css">
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/sponsors.css">
+	<link rel="stylesheet" href="css/countstats.css">
+	<link rel="stylesheet" href="css/presentation.css">
+	<link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
@@ -95,6 +102,87 @@ if(isset($_COOKIE['visiteur'])){
 		</div>
 	</section>
 	<!-- end home -->
+	<div class="section1" id="service">
+		<div class="container1">
+			<div class="row">
+				<div class="col-md-12 text-center wow bounceIn">
+					<h2>Présentation</h2>
+					<hr class="text-center">
+					
+				</div>
+					<div class="content-section1">
+						<div class="title1">
+							<h1>About us</h1>
+						</div>
+						<div class="content1">
+							<p>
+								Successway est un centre de formation continue agrée par le ministère de la formation professionnelle et de l'emploi, spécialisé dans l’enseignement des langues vivantes et la traduction, sous le numéro 61-311-16, sis au Route de Mahdia Km 2 a coté du lycée Mohamed Ali (Centre), Sfax,  Tunisie.
+							</p>
+							<div class="button1">
+								<a href="Presentation.html">Read More</a>
+							</div>
+						</div>
+						<div class="social1">
+							<a href=""><i class="fab fa-facebook-f"></i></a>
+							<a href=""><i class="fab fa-twitter"></i></a>
+							<a href=""><i class="fab fa-instagram"></i></a>
+						</div>
+					</div>
+					<div class="image-section1">
+						<img src="images/logo-removebg-preview.png" alt="">
+					</div>
+			</div>
+					
+		</div>
+	</div>
+
+	<!--end presentation-->
+	 <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<!--end chat bot-->
+	
 	<!-- start service -->
 	<section id="service">
 		<div class="container">
@@ -388,8 +476,53 @@ if(isset($_COOKIE['visiteur'])){
 					</div>
 				</div>
 			</div>
+			<div class="button">
+          
+		  <a href="admin.php">ajouter actualité</a>
+        </div>
 		</div>
 	</section>
+	<!-- start count stats -->
+
+<section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+
+	<div class="container">
+		<div class="row">
+		<p>notre success</p>
+			<div class="col-lg-3 stats">
+				<i class="fa fa-code" aria-hidden="true"></i>
+				<div class="counting" data-count="900000">0</div>
+				<h5>Lines of code</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-check" aria-hidden="true"></i>
+				<div class="counting" data-count="280">0</div>
+				<h5>Projects done</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<div class="counting" data-count="75">0</div>
+				<h5>Happy clients</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-coffee" aria-hidden="true"></i>
+				<div class="counting" data-count="999">0</div>
+				<h5>Cups of coffee</h5>
+			</div>
+
+
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</section>
+
+<!-- end cont stats -->
+	
 	<!-- end portfolio -->
 	<!-- start contact -->
 	<!--<section id="contact" style="background-color: #1A4280">
@@ -400,7 +533,17 @@ if(isset($_COOKIE['visiteur'])){
 						<h2 class="wow bounceIn">Contact</h2>
 						<hr>
 					</div>
+					
 -->
+<section>
+	<div>
+	<ul>
+	
+	</ul>
+	
+	</div>
+	
+	</section>
 					<div id="bloc1" class="aligncenter">
 						<p>
 							<img  src="images/Capture.PNG"  class="center" height="150px" width="200px">
@@ -464,6 +607,8 @@ if(isset($_COOKIE['visiteur'])){
 			</div>
 		</div>
 	</section>-->
+	
+	
 	<div class="container">
   <div class="content">
     <div class="left-side">
@@ -490,13 +635,13 @@ if(isset($_COOKIE['visiteur'])){
       <p>si vous avez un travail ou un besoin relié a notre centre, n'hésitez pas de laisser un message</p>
       <form action="#">
         <div class="input-box">
-          <input type="text" placeholder="Enter your name">
+          <input type="text" placeholder="Enter your name" id="name">
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Enter your email">
+          <input type="text" placeholder="Enter your email" id="email">
         </div>
         <div class="input-box message-box">
-			<input type="text" placeholder="message">
+			<input type="text" placeholder="message" id="message">
 
         </div>
         <div class="button">
@@ -506,6 +651,7 @@ if(isset($_COOKIE['visiteur'])){
     </div>
   </div>
 </div>
+
 	<!-- end contact -->
 	
 	<footer style="src:\xampp\htdocs\success\dreamsnmotion_final_version\template\templatemo_461_workforce\images\slider;">
@@ -532,7 +678,12 @@ if(isset($_COOKIE['visiteur'])){
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/responses.js"></script>
+	<script src="js/chat.js"></script>
+
 	<script src="js/sponsors.js"></script>
+	<script src="js/countstats.js"></script>
 	<script type="text/javascript">
     if(window.history.replaceState){
       window.history.replaceState(null, null, window.location.href);

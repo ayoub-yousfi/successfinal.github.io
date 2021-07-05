@@ -31,6 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 70px;
 }
 .container .content .left-side{
   width: 25%;

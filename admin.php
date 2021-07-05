@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +32,7 @@
 </head>
 <body>
 	<div id="frm">
-		<form action="inscrit.php" method="POST" >
+		<form action="process1.php" method="POST">
 			<div class="limiter">
 				<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 					<div class="wrap-login100">
@@ -40,29 +41,22 @@
 								<i class="zmdi zmdi-landscape"></i>
 							</span>
 							<span class="login100-form-title p-b-34 p-t-27">
-								Sign up
+								log in
 							</span>
-							<div class="wrap-input100 validate-input" data-validate = "nom">
-								<input class="input100" type="text"  id="nom" name="nom" placeholder="Nom">
+							<div class="wrap-input100 validate-input" data-validate = "Enter username">
+								<input class="input100" type="text"  id="user" name="user" placeholder="user">
 								<span class="focus-input100" data-placeholder="&#xf207;"></span>
 							</div>
-							<div class="wrap-input100 validate-input" data-validate="prenom">
-								<input class="input100" type="text" id="prenom" name="prenom" placeholder="Prenom">
+							<div class="wrap-input100 validate-input" data-validate="Enter password">
+								<input class="input100" type="password" id="password" name="password" placeholder="Password">
 								<span class="focus-input100" data-placeholder="&#xf191;"></span>
 							</div>
-							<div class="wrap-input100 validate-input" data-validate = "email">
-								<input class="input100" type="text"  id="email" name="email" placeholder="Email">
-								<span class="focus-input100" data-placeholder="&#xf207;"></span>
+							<div class="wrap-input100 validate-input" data-validate="cocher">
+							<h4><input type="checkbox" id="cocher" name="cocher" placeholder="garder ma session active">garder ma session active</h4>
 							</div>
-							
-							<div class="wrap-input100 validate-input" data-validate = "telephone">
-								<input class="input100" type="text"  id="telephone" name="telephone" placeholder="N° Téléphone">
-								<span class="focus-input100" data-placeholder="&#xf207;"></span>
-							</div>
-							
 							
 							<div class="container-login100-form-btn">
-								<button class="login100-form-btn" type="submit" id="submit">
+								<button class="login100-form-btn">
 									Login
 								</button>
 							</div>
@@ -94,8 +88,6 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-	<script src="js/inscrit.js"></script>
-
 
 </body>
 </html>

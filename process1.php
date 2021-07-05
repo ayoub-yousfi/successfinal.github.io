@@ -12,19 +12,18 @@ session_start();
   mysql_connect("localhost","root","");
   mysql_select_db("success");
 
-  $result=mysql_query("select * from formateur where user='$username' and password='$password'")
+  $result=mysql_query("select * from admin where user='$username' and password='$password'")
        or die("failed to query database".mysql_error());
   $row=mysql_fetch_array($result);
   if ($row['user']==$username && $row['password']==$password){
-  	header('location:index.php');
+  	header('location:add_actualite.php');
   } else {
+    header('location:admin.php');
     ?>
-    <script> window.alert("failed try again");</script>
+    <div class="alert">
+    <?php echo 'erreur' ?>
+    </div>
     <?php
-    header('location:adminformateur.php');
-    
-    
-    
   }
   
 ?>

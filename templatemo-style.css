@@ -6,6 +6,9 @@ https://templatemo.com/tm-461-workforce
 
 */
 
+
+
+
 body
     {
         background: #f9f9f9;
@@ -19,6 +22,7 @@ hr
     {
         border: 1px solid #55acee;
         width: 100px;
+        margin-left: 50%;
         margin-top: 20px;
     }
 /* end hr */
@@ -31,6 +35,9 @@ h2
     }
 /* end h2 */
 
+/* start h3 */
+
+
 /* start h4 */
 h4
     {
@@ -38,6 +45,15 @@ h4
         padding-bottom: 50px;
     }
 /* end h4 */
+
+/* start h5*/
+h5
+    {
+        font-size: 30 px;
+        font-weight: bold;
+        color: #55acee;
+    }
+/* end h5*/
 .btn {
     background: transparent;
     border-radius: 10px;
@@ -83,7 +99,7 @@ h4
                 align-items: center;
         background: none repeat scroll 0 0 #fff;
     }
-/*.sk-spinner-rotating-plane.sk-spinner 
+.sk-spinner-rotating-plane.sk-spinner 
     {
          width: 30px;
         height: 30px;
@@ -91,51 +107,6 @@ h4
         -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
                 animation: sk-rotatePlane 1.2s infinite ease-in-out;
      }
-*/
-/*pre loader*/
-
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-*{
-    margin:0px;
-    padding:0px;
-}
-#mdiv{
-    background-color: white;
-    width:99vw;
-    height:100vh;
-    display: grid;
-    place-items: center;
-    position: relative;
-}
-.cdiv{
-    width:15rem;
-    height:15rem;
-}
-.rot{
-    position: absolute;
-    width:15rem;
-    height:15rem;
-    border-right:0.3rem solid #1A4280;
-    border-radius: 50%;
-    animation:pre 2s linear infinite;
-}
-@keyframes pre {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-.lh{
-    color:#1A4280;
-    font-family: 'Pattaya', sans-serif;
-    text-transform: uppercase;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
 
 @-webkit-keyframes sk-rotatePlane {
   0% {
@@ -219,6 +190,7 @@ h4
             background: #fff;
         }
 }
+
 /* end navigation */
 
 /* start home */        
@@ -306,6 +278,12 @@ h4
         padding-top: 80px;
         padding-bottom: 80px;
     }
+
+[class*="col-"] {
+      padding-right: 100;
+      padding-left: 300;
+    }
+  
 #service .media
     {
         padding: 10px;
@@ -391,7 +369,7 @@ h3.about-title {
         border-top: 1px solid #eeeeee;
         border-bottom: 1px solid #eeeeee;
         padding-top: 80px;
-        padding-bottom: 20px;
+        padding-bottom: 80px;
     }
 #portfolio .portfolio-thumb
     {
@@ -510,6 +488,7 @@ h3.about-title {
 #contact
     {
         background: #1A4280;
+        padding-top: 80px;
         padding-bottom: 80px;
     }
 #contact .form-control
@@ -540,12 +519,9 @@ h3.about-title {
 /* start blocs*/
 #bloc1
 {
-    margin-left: auto;
-    margin-top: auto;
-    background-color:#7d8899;
+    background-color:#1A4280;
     float:left;
-    width:350px;
-    border-top: 40px;
+    width:240px;
 }
 #bloc2
 {
@@ -557,6 +533,7 @@ h3.about-title {
 /* start footer */
 footer
     {
+        background-image: url(https://i.pinimg.com/originals/bc/a3/2d/bca32d5cdfabeaeb4faeb12bff160524.jpg);
         color: #ffffff;
         padding-top: 60px;
         padding-bottom: 60px;
